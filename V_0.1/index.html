@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="style.css" rel="stylesheet">
+    <title>Weather_App inspired by ASMRProg</title>
+</head>
+
+<body>
+    
+    <div class="container">
+            <div>
+                <video autoplay muted loop id="video-background">
+                    <source src="Backgrounds\Mp4\anime-studio-moewalls-com.mp4" type="video/mp4">
+                </video>
+            </div>
+        <div class="content">
+
+            <div class="container">
+                <div class="left-info">
+                    <div class="today-info">
+
+                        <h2>Friday</h2> <!--Placeholder Data-->
+                        <span>28 July 2023</span> <!--Placeholder Data-->
+                        
+                        <div>
+                            <i class='bx bx-current-location'></i>
+                            <span>Paris, FR</span> <!--Placeholder Data-->
+                        </div>
+                    </div>
+                    <div class="today-weather">
+                        <i class='bx bxs-sun'></i>
+                        <h1 class="weather-temp">
+                            25°C    <!--Placeholder Data-->
+                        </h1>
+                        <h3>Sunny</h3>  <!--Placeholder Data-->
+                    </div>
+                </div>
+
+                <div class="right-info">
+                    <div class="day-info">
+                        <div>
+                            <span class="title">PRECIPITATION</span>    
+                            <span class="value">4 %</span>  <!--Placeholder Data-->
+                        </div>
+                        <div>
+                            <span class="title">HUMIDITY</span>
+                            <span class="value">34 %</span> <!--Placeholder Data-->
+                        </div>
+                        <div>
+                            <span class="title">WIND SPEED</span>
+                            <span class="value">3 km/h</span>   <!--Placeholder Data-->
+                        </div>
+                    </div>
+
+
+                    <ul class="days-list">
+                        <li>
+                            <i class='bx bx-cloud'></i>
+                            <span>Sat</span>
+                            <span class="day-temp">23°C</span>  <!--Placeholder Data-->
+                        </li>
+                        <li>
+                            <i class='bx bx-cloud'></i>
+                            <span>Sun</span>
+                            <span class="day-temp">21°C</span>  <!--Placeholder Data-->
+                        </li>
+                        <li>
+                            <i class='bx bx-cloud'></i>
+                            <span>Mon</span>
+                            <span class="day-temp">18°C</span>  <!--Placeholder Data-->
+                        </li>
+                        <li>
+                            <i class='bx bx-cloud'></i>
+                            <span>Tue</span>
+                            <span class="day-temp">25°C</span>  <!--Placeholder Data-->
+                        </li>
+                        <li>
+                            <i class='bx bx-cloud'></i>
+                            <span>Wen</span>
+                            <span class="day-temp">21°C</span>  <!--Placeholder Data-->
+                        </li>
+                    </ul>
+
+                    <div class="btn-container">
+                        <input type="text" id="search-input" placeholder="Enter location">
+                        <button class="loc-button" onclick="searchLocation()">Search Location</button>
+                    </div>                    
+                    
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="api.js"></script>
+
+</body>
+</html>
