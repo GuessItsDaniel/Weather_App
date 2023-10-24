@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="style.css" rel="stylesheet">
+    <title>Weather_App inspired by ASMRProg</title>
+</head>
+
+    <script src="api.js"></script>
+
+<body>
+    
+    <div class="container">
+            <div>
+                <video autoplay muted loop id="video-background">
+                    <source src="Backgrounds\Mp4\anime-studio-moewalls-com.mp4" type="video/mp4">
+                </video>
+            </div>
+        <div class="content">
+
+            <div class="container">
+                <div class="left-info">
+                    <div class="today-info">
+
+                        <h2>Current Week-day</h2> <!--Placeholder Data-->
+                        <span>Current date</span> <!--Placeholder Data-->
+                        
+                        <div>
+                            <i class='bx bx-current-location'></i>
+                            <span class="city">City</span> , <span class="country">XX</span> <!--Placeholder Data-->
+                        </div>
+                    </div>
+                    <div class="today-weather">
+                        <i class="bx bx-question-mark"></i>
+                        <h1 class="weather-temp">
+                            0°C    <!--Placeholder Data-->
+                        </h1>
+                        <h3>Current Weather</h3>  <!--Placeholder Data-->
+                    </div>
+                </div>
+
+                <div class="right-info">
+                    <div class="day-info">
+                        <div>
+                          <span class="title">PRECIPITATION</span>
+                          <span class="value precipitation">0 mm</span>
+                        </div>
+                        <div>
+                          <span class="title">HUMIDITY</span>
+                          <span class="value humidity">0 %</span>
+                        </div>
+                        <div>
+                          <span class="title">WIND SPEED</span>
+                          <span class="value wind-speed">0 m/s</span>
+                        </div>
+                      </div>
+                      
+
+                    <ul class="days-list">
+                        <li>
+                            <i class='bx bx-question-mark'></i>
+                            <span>Day 1</span>
+                            <span class="day-temp">0°C</span>  <!--Placeholder Data-->
+                        </li>
+                        <li>
+                            <i class='bx bx-question-mark'></i>
+                            <span>Day 2</span>
+                            <span class="day-temp">0°C</span>  <!--Placeholder Data-->
+                        </li>
+                        <li>
+                            <i class='bx bx-question-mark'></i>
+                            <span>Day 3</span>
+                            <span class="day-temp">0°C</span>  <!--Placeholder Data-->
+                        </li>
+                        <li>
+                            <i class='bx bx-question-mark'></i>
+                            <span>Day 4</span>
+                            <span class="day-temp">0°C</span>  <!--Placeholder Data-->
+                        </li>
+                        <li>
+                            <i class='bx bx-question-mark'></i>
+                            <span>Day 5</span>
+                            <span class="day-temp">0°C</span>  <!--Placeholder Data-->
+                        </li>
+                    </ul>
+
+                    <div class="btn-container">
+                        <input type="text" id="search-input" placeholder="Enter location">
+                        <button class="loc-button" onclick="searchLocation()">Search Location</button>
+                    </div>                    
+                    
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+</body>
+</html>
