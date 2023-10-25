@@ -1,12 +1,13 @@
 Features 
-[ ] Type in Locations by Zip Code/ Name
+[x] Type in Locations by Zip Code/ Name
 [ ] European/Asian/American Capitals are getting their own Pictures
+[ ] German-Language Integration 
+
 
 Fix this!
-
 HTML:
-[ ] Placeholder Data needs to be replaced with actual data from the Open Weather API
-[ ] Html and JS need to kinda work together
+[x] Placeholder Data needs to be replaced with actual data from the Open Weather API
+[x] Html and JS need to kinda work together
 
 CSS:
 [ ] needs to fit for mobile phones // 320 - 425px -> Maybe Phone View?
@@ -14,4 +15,4 @@ CSS:
 [x] The Left-info Picture doesn't have a smooth animation
 
 JS:
-[ ] Built in the Open Weather API
+[x] Built in the Open Weather API

@@ -1,0 +1,30 @@
+Deutsch
+V_0.1:
+Stark inspieriert von ASMR-Progs Wetter App Design, das Design
+stellt ein gewisses Konzept dar wie die Daten später eingebracht
+werden sollen.
+
+V_0.2
+Der linke Container zeigt die aktuellen Wetterdaten einer Stadt
+und rechts sind die Daten Niederschlag(Precipitation), 
+Feuchtigkeit(Humidity) und Windgewschwigkeit(Wind Speed). Jedoch
+funkioniert die 5 Tagesvorschau die darunter ist nicht so wie es sollte.
+
+V0.3
+5 Tagesvorschau funkioniert jetzt, mit dem anzeigen der
+darauf folgenden Tage UND Wetter-icons.
+
+English
+
+V_0.1:
+Heavily inspired by ASMR-Progs Weather App Design, all of the Data
+shown in the Website are currently Placeholder Data to get an idea
+where Information is displayed.
+
+V_0.2:
+The Left-Info and Search function are working as intended, but the 5 day forecast
+does not. While i get a forecast the days and icons aren't displayed right.
+
+V_0.3
+5 Day Forecast works as intended updating the days and showing
+the right weather icons.
