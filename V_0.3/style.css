@@ -147,7 +147,7 @@ body{
     font-weight: 700;
 }
 .btn-container{
-    padding: 25px 35px;
+    padding: 20px 25px 5px 25px;
 }
 
 .loc-button{
@@ -192,4 +192,11 @@ body{
 
 #search-input::placeholder {
     color: #fff; /* Change the color of the Placeholder Text */
+}
+
+.note{
+    padding-top: 7px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 0.9rem;
 }
